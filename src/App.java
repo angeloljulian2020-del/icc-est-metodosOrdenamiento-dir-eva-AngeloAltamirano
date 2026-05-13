@@ -9,7 +9,7 @@ public class App {
         controllers.sortByName(Carros);
         System.out.println("lista de carros: ");
         for(Car c : Carros){
-            System.out.println("Marca: " + c.getName() + "Año: " + c.getYear());
+            System.out.println("-Marca: " + c.getName() + " -Año: " + c.getYear());
         }
         
 
